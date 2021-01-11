@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="hr">
+    <head>
+        <link rel="stylesheet" href="stil.css">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Projekt">
+        <meta name="keywords" content="Home, html, spomenici, galerija">
+        <meta name="author" content="Marija Lilić">
+        <meta property="og:title" content="Hello Example">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="Your URL">
+        <meta property="og:image" content="Your URL">
+        <meta property="og:description" content="Some description">
+        <meta property="article:tag" content="keyword 1, keyword 2, keyword 3, keyword 4, ...">
+        <meta name="twitter:title" content="Hello Example">
+        <meta name="twitter:description" content="Some description">
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+        <title>Marija Lilić</title>
+    </head>
+
+
+    <body>
+
+        <header>
+        
+             <nav>
+            
+                  <div class="b">
+                     <ul>
+                         <li><a href="index.html">HOME</a></li>
+                        <li><a href="spomenici.html">KULTURNE ZNAMENITOSTI</a></li>
+                         <li><a href="zanimljivosti.html">ZANIMLJIVOSTI</a></li>
+                         <li><a href="plaze.html">PLAŽE</a></li>
+                         <li><a href="galerija.html">GALERIJA</a></li>
+                         <li><a href="kontakti.html">KONTAKTI</a></li>
+                </ul>
+                 </div>
+             </nav>
+        
+        </header>
+
+        <main>
+            <h1>Moja kontakt adresa:</h1>
+            <div class="contact">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.5703478857595!2d15.894863015531968!3d45.79983477910644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d169d8371651%3A0xf3d826635a70bdd6!2s%C5%A0pansko%20ul.%2015%2C%2010000%2C%20Zagreb!5e0!3m2!1sen!2shr!4v1610040236851!5m2!1sen!2shr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <form action="http://work2.eburza.hr/pwa/responzive-page/send-contact.php" id="contact_form" name="contact_form" method="POST">
+                </form>
+            </div>   
+            <form>               
+                    <label for="fname">Ime *</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Ime..." required>
+
+                    <label for="lname">Prezime *</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Prezime..." required>
+            
+                    <label for="lname">E-mail *</label>
+                    <input type="email" id="email" name="email" placeholder="E-mail..." required>
+
+                    <label for="country">Zemlja</label>
+                    <select id="country" name="country">
+                        <option value="">Molim odaberite</option>
+                        <option value="HR" selected>Hrvatska</option>
+                        <option value="AUS">Austrija</option>
+                        <option value="SLO">Slovenija</option>
+                        <option value="IT">Italija</option>
+
+                    </select>
+
+                    <label for="subject">Tvoj komentar</label>
+                    <textarea id="subject" name="subject" placeholder="Tvoj komentar" style="height:200px"></textarea>
+
+                    <input type="submit" value="Pošalji">
+                </form>
+
+            
+        </main>
+                </body>
+                
